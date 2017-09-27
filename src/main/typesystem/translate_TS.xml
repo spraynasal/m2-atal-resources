@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>translate_TS</name>
+  <description>A translated text block.</description>
+  <version>1.0</version>
+  <vendor>spraynasal</vendor>
+  <types>
+    <typeDescription>
+      <name>org.spraynasal.uima.ts.TranslatedTextBlock</name>
+      <description>A text block for which a translation exists.</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>translation</name>
+          <description>The translatated string.</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>
