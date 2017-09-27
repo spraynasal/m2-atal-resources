@@ -1,2 +1,2 @@
-InputFile: src/main/resources/corpus/english.txt
-OutputFile: src/main/resources/corpus/english_translated.txt
+InputFile: src/main/resources/corpus/en_US.txt
+OutputFile: src/main/resources/corpus/en_US.translated.txt
