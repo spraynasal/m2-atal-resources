@@ -33,3 +33,7 @@ Exécuter SimplePipelineRunner2 avec le fichier `config2.yml`
 
 Exécuter SimplePipelineRunner3 avec le fichier `config3.yml`
 
+### 4. Décalage par numéro de version (entier) dans le fichier de configuration
+
+Exécuter SimplePipelineRunner4 avec le fichier `config4.yml`
+

@@ -1,0 +1,3 @@
+InputFile: src/main/resources/corpus/en_US.txt
+OutputFile: src/main/resources/corpus/en_US4.translated.txt
+Shift: 3
