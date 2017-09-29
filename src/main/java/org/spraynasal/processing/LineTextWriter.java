@@ -45,6 +45,7 @@ public class LineTextWriter extends JCasConsumer_ImplBase {
                 .orElseThrow(() -> new AnalysisEngineProcessException("No translation found", null));
         try {
             fileWriter.write(block.getTranslation());
+            fileWriter.write('\n');
         } catch (IOException e) {
             throw new AnalysisEngineProcessException(e);
         }

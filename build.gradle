@@ -48,4 +48,6 @@ dependencies {
     compile 'org.apache.uima:uimaj-document-annotation:2.7.0'
     compile('org.apache.uima:uimafit-core:2.1.0') { exclude group: 'org.apache.uima' }
     compile('org.apache.uima:uimafit-cpe:2.1.0') { exclude group: 'org.apache.uima' }
+
+    compile 'com.google.guava:guava:18.0'
 }
