@@ -23,3 +23,9 @@ L'exécution de la chaîne se trouve dans _SimplePipelineRunner_
 
 Exécuter SimplePipelineRunner avec le fichier `config.yml`
 
+### 2. Choix du hachage en paramètre dans le fichier de configuration
+
+L'implémentation du ITranslator et du Locator se trouve dans le package _core.ex2_.
+
+Exécuter SimplePipelineRunner2 avec le fichier `config2.yml`
+
