@@ -11,7 +11,7 @@ public abstract class CharTranslator implements ITranslator {
     public String translate(String input) {
         StringBuilder outBuilder = new StringBuilder();
         for(int i = 0; i < input.length(); i++) {
-            outBuilder.append(new Character(input.charAt(i)));
+            outBuilder.append(translate(input.charAt(i)));
         }
         return outBuilder.toString();
     }

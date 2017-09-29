@@ -29,3 +29,7 @@ L'implémentation du ITranslator et du Locator se trouve dans le package _core.e
 
 Exécuter SimplePipelineRunner2 avec le fichier `config2.yml`
 
+### 3. Traduction par décalage de 1
+
+Exécuter SimplePipelineRunner3 avec le fichier `config3.yml`
+
