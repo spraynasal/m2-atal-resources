@@ -37,3 +37,17 @@ Exécuter SimplePipelineRunner3 avec le fichier `config3.yml`
 
 Exécuter SimplePipelineRunner4 avec le fichier `config4.yml`
 
+#### 5. Choix du Locator et des paramètres dans le fichier de config
+
+TODO
+
+#### 6. Utiliser des instances de ITranslator persistées dans des fichiers
+
+TODO
+Les instances sont identifiées par un numéro de version.
+Utiliser `ObjectOutputStream` / `ObjectInputStream` pour la lecture écriture des objets.
+
+#### 7. Utiliser des instances configurables par langue
+
+TODO
+Idem que ci-dessus mais gérer des ressources différentes en fonction de la langue.
